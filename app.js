@@ -6,7 +6,6 @@ app.engine("handlebars", handlebars.engine);
 app.set('view engine', 'handlebars');
 
 app.get("/", function(req, res){
-   //var nombre = "<h1>Daniela</h1>";
    var nombres = ["Hugo", "Paco", "Luis"];
    var data = {nombres: nombres, autor:"Erik"};
 
